@@ -13,12 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - name:  Build src
-      run: gcc -Wall -std=c11 ./src/*.c -o opt
       
     - name:  Build vendor1
-      run: gcc -Wall -std=c11 ./vendor1/*.c -o opt
+      run: gcc -Wall -std=c11 -I/src ./vendor1/*.c -o opt
       
     - name: make
       run: make
