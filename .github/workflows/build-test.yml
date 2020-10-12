@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: build vendor1
-      run: gcc-o vendo1Exe vendor1/*.c
+      run: gcc-o vendor1Exe vendor1/*.c
