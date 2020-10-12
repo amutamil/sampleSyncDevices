@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
       
     - name:  Build vendor1
-      run: gcc -Wall -std=c11 -Isrc -Icommon_obj ./vendor1/*.c -o opt
+      run: gcc -Wall -std=c11 -Isrc ./common_obj/*.o ./vendor1/*.c -o opt
       
     - name: make
       run: make
