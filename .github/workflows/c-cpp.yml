@@ -14,11 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name:  Link objects
-      run: gcc -Wall -std=c11  -o -Icommon_obj/*.o
       
     - name:  Build vendor1
-      run: gcc -Wall -std=c11 -Isrc -c ./vendor1/*.c  -o opt
+      run: gcc -Wall -std=c11 -Isrc ./vendor1/*.c  -o opt
       
     - name: make
       run: make
