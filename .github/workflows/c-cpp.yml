@@ -14,13 +14,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: vendor1
-      run: ./vendor1
+    - name:  Build vendor1
+      run: gcc -Wall -std=c11 ./vendor1/paho_cs_pub.c. -o opt
       
     - name: make
       run: make
       
-    - name: make check
+    - name: make
       run: make check
       
     - name: make distcheck
