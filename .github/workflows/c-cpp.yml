@@ -14,5 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: install build-essential
+      run: sudo apt install build-essential
+    
     - name: build vendor1
       run: gcc-o vendor1Exe vendor1/*.c
