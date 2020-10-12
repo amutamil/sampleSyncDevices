@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: gcc -o vendor1Exe vendor1/*.c
-      
-    - name: run
-      run: ./vendor1Exe
+    
+    - name: build vendor1
+      run: gcc-o vendo1Exe vendor1/*.c
