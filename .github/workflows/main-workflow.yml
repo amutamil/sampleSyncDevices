@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: g++ -Wall -Wextra -o testchecker *.cpp
+      run: g++ -Wall -Wextra -o vendor1Exe vendor1/*.cpp
       
     - name: run
-      run: ./testchecker
+      run: ./vendor1Exe
