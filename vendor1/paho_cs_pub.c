@@ -144,9 +144,7 @@ int main(int argc, char** argv)
 	int rc = 0;
 	char* url;
 	const char* version = NULL;
-#if !defined(_WIN32)
-    struct sigaction sa;
-#endif
+
 	const char* program_name = "paho_cs_pub";
 	MQTTClient_nameValue* infos = MQTTClient_getVersionInfo();
 
@@ -186,13 +184,7 @@ int main(int argc, char** argv)
 #if defined(_WIN32)
 	signal(SIGINT, cfinish);
 	signal(SIGTERM, cfinish);
-#else
-    memset(&sa, 0, sizeof(struct sigaction));
-    sa.sa_handler = cfinish;
-    sa.sa_flags = 0;
 
-    sigaction(SIGINT, &sa, NULL);
-    sigaction(SIGTERM, &sa, NULL);
 #endif
 
 	rc = MQTTClient_setCallbacks(client, NULL, NULL, messageArrived, NULL);
