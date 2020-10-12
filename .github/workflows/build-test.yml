@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc -Wall -Wextra -o vendor1Exe vendor1/*.c
+      run: gcc -o vendor1Exe vendor1/*.c
       
     - name: run
       run: ./vendor1Exe
