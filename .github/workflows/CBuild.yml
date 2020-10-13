@@ -18,6 +18,8 @@ jobs:
       
     - name: Cache vcpkg installed
       uses: actions/cache@v1.0.3  
+      with:
+        path: $VCPKG_ROOT/installed
     
     - name: install openssl
       run: vcpkg integrate install; vcpkg install  openssl:x64-windows
