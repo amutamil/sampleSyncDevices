@@ -91,7 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samplesD:\a\sampleSyncDevices\sampleSyncDevices\vendor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
