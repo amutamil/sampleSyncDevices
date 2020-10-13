@@ -16,8 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Link object files
-      run: sudo apt-get install OpenSSL
+    - name: install openssl
+      run: sudo apt update && apt install build-essential checkinstall zlib1g-dev 
     
     - name: Link object files
       run: gcc -Wall -std=c11 -o output ./common_obj/*.c.obj
