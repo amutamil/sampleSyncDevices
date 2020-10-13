@@ -22,7 +22,7 @@ jobs:
           vs-version: 15.0
     
     - name: msbuild
-      run: MSBuild.exe
+      run: MSBuild.exe vendor2.vcxproj
       
    
     
