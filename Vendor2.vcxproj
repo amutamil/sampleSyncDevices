@@ -164,13 +164,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\pubsub_opts.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\ClientConnection.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\ClientConnectionOptions.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\publisher_main.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\subscribe_main.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\TraceCallBacks.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\vendor1.c" />
-    <ClCompile Include="..\..\paho_cs\paho_cs\vendor1_test.cpp">
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnection.c" />
+    <ClCompile Include=".D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnectionOptions.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\publisher_main.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\subscribe_main.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\TraceCallBacks.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\vendor1.c" />
+    <ClCompile Include=".D:\a\sampleSyncDevices\sampleSyncDevices\vendor\vendor1_test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
