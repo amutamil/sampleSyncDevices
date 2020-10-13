@@ -20,17 +20,8 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
       with:
           vs-version: 15.0
-      
-    - name: Cache vcpkg installed
-      uses: actions/cache@v1.0.3  
-      with:
-        path: $VCPKG_ROOT/installed
-        key: ${{ runner.os }}-vcpkg-cache-${{ matrix.db-backend }}
-      env:
-        VCPKG_ROOT: 'C:\vcpkg'
-    
-    - name: install openssl
-      run: vcpkg integrate install; vcpkg install  openssl:x64-windows
+    - name: install npm
+      run: npm install
     
     - name: Link object files
       run: gcc -Wall -std=c11 -o output ./common_obj/*.c.obj
