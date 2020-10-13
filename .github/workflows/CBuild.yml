@@ -23,8 +23,8 @@ jobs:
     - name: install npm
       run: npm install
     
-    - name: Link object files
-      run: gcc -Wall -std=c11 -o output ./common_obj/*.c.obj
+    - name: msbuild
+      run: MSBuild.exe
       
     - name: Build
       run: gcc -Wall -std=c11 -Isrc -Icommon_obj ./vendor/*.c  -o opt
