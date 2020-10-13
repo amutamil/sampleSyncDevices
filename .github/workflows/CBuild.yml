@@ -20,6 +20,9 @@ jobs:
       uses: actions/cache@v1.0.3  
       with:
         path: $VCPKG_ROOT/installed
+        key: ${{ runner.os }}-vcpkg-cache-${{ matrix.db-backend }}
+      env:
+        VCPKG_ROOT: 'C:\vcpkg'
     
     - name: install openssl
       run: vcpkg integrate install; vcpkg install  openssl:x64-windows
