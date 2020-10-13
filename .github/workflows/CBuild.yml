@@ -11,13 +11,13 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
     
     - name: install openssl
-      run: sudo apt-get update && sudo apt-get install --no-install-recommends openssl
+      run: vcpkg integrate install; vcpkg install sqlite3:x64-windows openssl
     
     - name: Link object files
       run: gcc -Wall -std=c11 -o output ./common_obj/*.c.obj
