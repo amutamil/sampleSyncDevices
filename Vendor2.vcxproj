@@ -165,7 +165,7 @@
   <ItemGroup>
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\pubsub_opts.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnection.c" />
-    <ClCompile Include=".D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnectionOptions.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnectionOptions.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\publisher_main.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\subscribe_main.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\TraceCallBacks.c" />
