@@ -15,6 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
+    - name: Cache vcpkg installed
+      uses: actions/cache@v1.0.3  
     
     - name: install openssl
       run: vcpkg integrate install; vcpkg install  openssl:x64-windows
