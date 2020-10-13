@@ -17,8 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set up GNU
       uses: actions/setup-GNU@v1
-      with:
-        GNU-version:10.2
+      
     - name: Build
       run: gcc vendor/*.c
     
