@@ -16,6 +16,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.0.2
+      with:
+          vs-version: '[16.4,16.5)'
+      
     - name: Cache vcpkg installed
       uses: actions/cache@v1.0.3  
       with:
