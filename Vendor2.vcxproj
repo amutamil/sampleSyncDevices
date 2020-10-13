@@ -163,7 +163,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\pubsub_opts.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\pubsub_opts.c" />
     <ClCompile Include="..\..\paho_cs\paho_cs\ClientConnection.c" />
     <ClCompile Include="..\..\paho_cs\paho_cs\ClientConnectionOptions.c" />
     <ClCompile Include="..\..\paho_cs\paho_cs\publisher_main.c" />
