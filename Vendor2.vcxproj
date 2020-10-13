@@ -166,6 +166,7 @@
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\pubsub_opts.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnection.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\ClientConnectionOptions.c" />
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\PublisherOption.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\publisher_main.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\subscribe_main.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\vendor\TraceCallBacks.c" />
@@ -178,12 +179,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\GitHub\paho.mqtt.c-master\src\samples\pubsub_opts.h" />
-    <ClInclude Include="..\..\paho_cs\paho_cs\ClientConnection.h" />
-    <ClInclude Include="..\..\paho_cs\paho_cs\ClientConnectionOptions.h" />
-    <ClInclude Include="..\..\paho_cs\paho_cs\publisher_main.h" />
-    <ClInclude Include="..\..\paho_cs\paho_cs\subscribe_main.h" />
-    <ClInclude Include="..\..\paho_cs\paho_cs\TraceCallBacks.h" />
+    <ClInclude Include="D:\a\sampleSyncDevices\sampleSyncDevices\src\pubsub_opts.h" />
+    <ClInclude Include="D:\a\sampleSyncDevices\sampleSyncDevices\src\ClientConnection.h" />
+    <ClInclude Include=".D:\a\sampleSyncDevices\sampleSyncDevices\src\ClientConnectionOptions.h" />
+    <ClInclude Include=".D:\a\sampleSyncDevices\sampleSyncDevices\src\PublisherOptions.h" />
+    <ClInclude Include="D:\a\sampleSyncDevices\sampleSyncDevices\src\publisher_main.h" />
+    <ClInclude Include="D:\a\sampleSyncDevices\sampleSyncDevices\src\subscribe_main.h" />
+    <ClInclude Include="D:\a\sampleSyncDevices\sampleSyncDevices\src\TraceCallBacks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
