@@ -109,7 +109,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\vendor;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj.dir;D:\a\sampleSyncDevices\sampleSyncDevices\vendor;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,7 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src\CMakeFiles\common_obj.dir;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj.dir;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +151,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\vendor;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj.dir;D:\a\sampleSyncDevices\sampleSyncDevices\vendor;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
