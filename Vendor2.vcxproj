@@ -96,8 +96,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>paho-mqtt3a.exp;paho-mqtt3a.lib;paho-mqtt3as.exp;paho-mqtt3as.lib;paho-mqtt3c.exp;paho-mqtt3c.lib;paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\vendor;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -109,13 +109,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src\CMakeFiles\common_obj.dir;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>paho-mqtt3a.exp;paho-mqtt3a.lib;paho-mqtt3as.exp;paho-mqtt3as.lib;paho-mqtt3c.exp;paho-mqtt3c.lib;paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\vendor%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -136,8 +136,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>paho-mqtt3a.exp;paho-mqtt3a.lib;paho-mqtt3as.exp;paho-mqtt3as.lib;paho-mqtt3c.exp;paho-mqtt3c.lib;paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\vendor;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,15 +151,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src\CMakeFiles\common_obj.dir;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\common_obj;D:\a\sampleSyncDevices\sampleSyncDevices\src;C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\src\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ASUS\Documents\GitHub\paho.mqtt.c-master\build.paho\src;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>paho-mqtt3a.exp;paho-mqtt3a.lib;paho-mqtt3as.exp;paho-mqtt3as.lib;paho-mqtt3c.exp;paho-mqtt3c.lib;paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\a\sampleSyncDevices\sampleSyncDevices\vendor;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>paho-mqtt3cs.exp;paho-mqtt3cs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
