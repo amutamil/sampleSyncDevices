@@ -29,6 +29,7 @@ jobs:
       run: |
         echo 'hello'
         D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
+        set /p new_variable="Enter value "
         
       
     - name: run
