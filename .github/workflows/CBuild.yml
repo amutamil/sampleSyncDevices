@@ -21,8 +21,14 @@ jobs:
       with:
           vs-version: 15.0
     
-    - name: msbuild
+    - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
+      
+    - name: run
+      run: vendor2.exe sub
+    
+    - name: run
+      run: vendor2.exe pub
       
    
     
