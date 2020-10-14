@@ -86,11 +86,11 @@ int main(int argc, char* argv[])
 {
 	
 	
-	char* argvSub[5] = { argv[0],"-t","Patient/#" ,"-i","id1"};
-	int argvSubCount=5;
+	char* argvSub[5] = { argv[0],"-t","Patient/#" ,"-i","id1","-c","tcp://mqtt.eclipse.org:1883"};
+	int argvSubCount=7;
 	
-	char* argvPub[5]= { argv[0],"-t","","-m",""};
-	int argvPubCount = 5;
+	char* argvPub[5]= { argv[0],"-t","","-m","","-c","tcp://mqtt.eclipse.org:1883"};
+	int argvPubCount = 7;
 
 	char patientName[20];
 	char consumables[20];
