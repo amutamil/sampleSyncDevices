@@ -25,10 +25,10 @@ jobs:
       run: MSBuild.exe vendor2.sln
       
     - name: run
-      run: vendor2.exe sub
+      run: vendor2 sub
     
     - name: run
-      run: vendor2.exe pub
+      run: vendor2 pub
       
    
     
