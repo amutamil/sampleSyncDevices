@@ -23,6 +23,7 @@ jobs:
     
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
+      timeout-minutes: 3
     
     
     - name: batch 
