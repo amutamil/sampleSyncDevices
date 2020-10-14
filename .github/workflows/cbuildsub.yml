@@ -1,0 +1,31 @@
+name: C Builder
+
+on:
+  push:
+    paths-ignore:
+    - '**.md'
+  pull_request:
+    paths-ignore:
+    - '**.md'
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.0.2 
+      with:
+          vs-version: 15.0
+    
+    - name: msbuild solution build
+      run: MSBuild.exe vendor2.sln
+    
+    
+    - name: batch 
+      run: |
+        echo 'hello'
+        D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
