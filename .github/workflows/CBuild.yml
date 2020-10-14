@@ -23,12 +23,10 @@ jobs:
     
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
-      timeout-minutes: 4
     
     
     - name: batch 
       run: |
-        echo 'hello'
         (echo henry && echo x-ray && echo cardiac && echo N)| D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub   
       
    
