@@ -25,7 +25,7 @@ jobs:
       run: MSBuild.exe vendor2.sln
       
     - name: run
-      run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
+      run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
     
     - name: run
       run: vendor2 pub
