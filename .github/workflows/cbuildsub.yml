@@ -24,8 +24,8 @@ jobs:
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
     
-    
+      
     - name: batch 
       run: |
         D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
-        timeout 50
+      timeout-minutes:  7
