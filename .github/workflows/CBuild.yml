@@ -28,9 +28,7 @@ jobs:
     - name: batch 
       run: |
         echo 'hello'
-        D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
-        set /p new_variable="Enter value "
-        
+        (echo henry && echo x-ray && echo cardiac)| D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub   
       
     - name: run
       run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
