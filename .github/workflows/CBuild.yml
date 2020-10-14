@@ -24,8 +24,11 @@ jobs:
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
     
-    - name: run batch file
-      run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\build.bat
+    
+    - name: batch 
+      run: |
+        echo 'hello'
+        shell: cmd
       
     - name: run
       run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
