@@ -27,5 +27,5 @@ jobs:
     
     - name: batch 
       run: |
-        echo 'hello'
         D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
+        timeout 50
