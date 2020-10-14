@@ -28,7 +28,8 @@ jobs:
     - name: batch 
       run: |
         echo 'hello'
-        shell: cmd
+        D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
+        
       
     - name: run
       run: D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
