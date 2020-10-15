@@ -25,6 +25,10 @@ jobs:
     - name: Install cppcheck
       run: choco install cppcheck
     
+    - name: static analysis
+      run: cppcheck --suppress=missingIncludeSystem --check-config --force --enable=all --error-exitcode=1 .
+      
+    
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
     
