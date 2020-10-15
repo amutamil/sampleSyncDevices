@@ -22,9 +22,12 @@ jobs:
           vs-version: 15.0
     
     - name: msbuild solution build
-      run: MSBuild.exe vendor2.sln
+      run: msbuild Vendor2.vcxproj /p:configuration=debug /p:platform=x64
     
-      
+    - name: publish
+      run: |
+        (echo henry && echo x-ray && echo cardiac && echo N)| D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe pub
+    
     - name: batch 
       run: |
         D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
