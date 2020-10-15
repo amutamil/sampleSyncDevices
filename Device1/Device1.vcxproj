@@ -163,6 +163,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\Device1\pubsub_opts.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\Device1\ClientConnection.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\Device1\ClientConnectionOptions.c" />
     <ClCompile Include="D:\a\sampleSyncDevices\sampleSyncDevices\Device1\PublisherOption.c" />
