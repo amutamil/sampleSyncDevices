@@ -9,7 +9,7 @@ on:
     - '**.md'
 
 jobs:
-  build:
+  Analysis:
 
     runs-on: ubuntu-latest
 
@@ -22,7 +22,7 @@ jobs:
     - name: static analysis
       run: cppcheck --suppress=missingIncludeSystem --check-config --force --enable=all --error-exitcode=1 .
      
-  build1:
+  build and publish message:
 
     runs-on: windows-latest
 
