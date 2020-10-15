@@ -22,11 +22,7 @@ jobs:
     - name: static analysis
       run: cppcheck --suppress=missingIncludeSystem --check-config --force --enable=all --error-exitcode=1 .
 
-    - name: Install lizard
-      run: pip install lizard
-
-    - name: Limit complexity
-      run: $HOME/.local/bin/lizard --CCN 3 -x"D:\a\sampleSyncDevices\sampleSyncDevices\vendor\*.c"
+   
      
   build:
 
