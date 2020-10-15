@@ -1,4 +1,4 @@
-name: C Builder sub
+name: C Builder pub
 
 on:
   push:
