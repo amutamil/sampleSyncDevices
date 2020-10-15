@@ -22,12 +22,6 @@ jobs:
           vs-version: 15.0
     
     
-    - name: Install cppcheck
-      run: choco install cppcheck
-    
-    - name: static analysis
-      run:  ./cppcheck.exe
-      
     
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
