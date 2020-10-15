@@ -39,7 +39,7 @@ jobs:
     
     
     - name: msbuild solution build
-      run: MSBuild.exe D:\a\sampleSyncDevices\sampleSyncDevices\Device1.sln
+      run: MSBuild.exe D:\a\sampleSyncDevices\sampleSyncDevices\Device1\Device1.sln
     
     
     - name: publish
