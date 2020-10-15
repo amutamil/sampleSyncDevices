@@ -23,7 +23,7 @@ jobs:
     
     
     - name: Install cppcheck
-      run: vcpkg install danmar/cppcheck:x64-windows
+      run: choco install cppcheck
     
     - name: msbuild solution build
       run: MSBuild.exe vendor2.sln
