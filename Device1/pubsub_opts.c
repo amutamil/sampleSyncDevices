@@ -463,41 +463,41 @@ char* readfile(int* data_len, struct pubsub_opts* opts)
 }
 
 
-void logProperties(MQTTProperties *props)
-{
-	int i = 0;
-
-	for (i = 0; i < props->count; ++i)
-	{
-		int id = props->array[i].identifier;
-		const char* name = MQTTPropertyName(id);
-		char* intformat = "Property name %s value %d\n";
-
-		switch (MQTTProperty_getType(id))
-		{
-		case MQTTPROPERTY_TYPE_BYTE:
-		  printf(intformat, name, props->array[i].value.byte);
-		  break;
-		case MQTTPROPERTY_TYPE_TWO_BYTE_INTEGER:
-		  printf(intformat, name, props->array[i].value.integer2);
-		  break;
-		case MQTTPROPERTY_TYPE_FOUR_BYTE_INTEGER:
-		  printf(intformat, name, props->array[i].value.integer4);
-		  break;
-		case MQTTPROPERTY_TYPE_VARIABLE_BYTE_INTEGER:
-		  printf(intformat, name, props->array[i].value.integer4);
-		  break;
-		case MQTTPROPERTY_TYPE_BINARY_DATA:
-		case MQTTPROPERTY_TYPE_UTF_8_ENCODED_STRING:
-		  printf("Property name %s value len %.*s\n", name,
-				  props->array[i].value.data.len, props->array[i].value.data.data);
-		  break;
-		case MQTTPROPERTY_TYPE_UTF_8_STRING_PAIR:
-		  printf("Property name %s key %.*s value %.*s\n", name,
-			  props->array[i].value.data.len, props->array[i].value.data.data,
-		  	  props->array[i].value.value.len, props->array[i].value.value.data);
-		  break;
-		}
-	}
-}
+//void logProperties(MQTTProperties *props)
+//{
+//	int i = 0;
+//
+//	for (i = 0; i < props->count; ++i)
+//	{
+//		int id = props->array[i].identifier;
+//		const char* name = MQTTPropertyName(id);
+//		char* intformat = "Property name %s value %d\n";
+//
+//		switch (MQTTProperty_getType(id))
+//		{
+//		case MQTTPROPERTY_TYPE_BYTE:
+//		  printf(intformat, name, props->array[i].value.byte);
+//		  break;
+//		case MQTTPROPERTY_TYPE_TWO_BYTE_INTEGER:
+//		  printf(intformat, name, props->array[i].value.integer2);
+//		  break;
+//		case MQTTPROPERTY_TYPE_FOUR_BYTE_INTEGER:
+//		  printf(intformat, name, props->array[i].value.integer4);
+//		  break;
+//		case MQTTPROPERTY_TYPE_VARIABLE_BYTE_INTEGER:
+//		  printf(intformat, name, props->array[i].value.integer4);
+//		  break;
+//		case MQTTPROPERTY_TYPE_BINARY_DATA:
+//		case MQTTPROPERTY_TYPE_UTF_8_ENCODED_STRING:
+//		  printf("Property name %s value len %.*s\n", name,
+//				  props->array[i].value.data.len, props->array[i].value.data.data);
+//		  break;
+//		case MQTTPROPERTY_TYPE_UTF_8_STRING_PAIR:
+//		  printf("Property name %s key %.*s value %.*s\n", name,
+//			  props->array[i].value.data.len, props->array[i].value.data.data,
+//		  	  props->array[i].value.value.len, props->array[i].value.value.data);
+//		  break;
+//		}
+//	}
+//}
 
