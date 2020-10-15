@@ -28,7 +28,7 @@ jobs:
     - name: Limit complexity
       run: $HOME/.local/bin/lizard --CCN 3 -x"D:\a\sampleSyncDevices\sampleSyncDevices\vendor\*.c"
      
-  build:vendor\*.c
+  build:
 
     runs-on: windows-latest
 
