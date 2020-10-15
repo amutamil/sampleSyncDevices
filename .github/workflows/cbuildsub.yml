@@ -27,7 +27,7 @@ jobs:
     - name: subsribe 
       run: |
         D:\a\sampleSyncDevices\sampleSyncDevices\x64\Debug\Vendor2.exe sub
-      timeout-minutes:  3
+      timeout-minutes:  1
       
     - name: publish
       run: |
